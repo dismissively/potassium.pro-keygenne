@@ -1,2 +1,2 @@
-# potassium cracked by Mashiro Shiina <3
+# i love kittens
 import json as j,base64 as b,hmac as h,hashlib as l;u=lambda d:b.urlsafe_b64encode(d).rstrip(b"=").decode();H={"alg":"HS256","typ":"JWT"};P={"id":"cracked by mashiro shiina","exp":"4071619885","iat":"1736064000"};k=b"mashiroshiina1337";hb=u(j.dumps(H,separators=(",",":")).encode());pb=u(j.dumps(P,separators=(",",":")).encode());m=f"{hb}.{pb}".encode();sg=u(h.new(k,m,l.sha256).digest());t=f"{hb}.{pb}.{sg}";open("user.bin","wb").write(j.dumps({"jwt":t,"expiration":"2099-01-09T05:31:25.0000000Z"},indent=2).encode());print("place user.bin into the potassium ./bin/ folder")
