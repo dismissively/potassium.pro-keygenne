@@ -1,3 +1,5 @@
+### like 80% sure this doesn't work anymore, too lazy to make a new win10 vm to test lol
+
 # why does it work
 potassium's auth really only checks if ur credentials are good when they first setup, then if ur user.bin looks legit *enough* they'll just let it slide, so this keygen takes advantage of that
 
